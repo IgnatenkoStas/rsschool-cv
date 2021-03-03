@@ -26,3 +26,29 @@ _I am a student of the Gomel State Technical University named after Pavel Osipov
 
 ---
 
+### Code example
+
+```
+function calculateSum(a, b){
+    return a + b;
+}
+```
+
+
+---
+
+### Work experience
+
+---
+
+### Education
+
+**_Gomel State Technical University named after P.O.Sukhoi (2018 - now)_**  
+**_Faculty:_** _Automated and Information Systems_  
+**_Department:_** _Computer Science and Programming Technologies_
+
+---
+
+### English
+
+_B1_
