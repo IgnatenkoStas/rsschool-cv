@@ -1,3 +1,132 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    background: #000;
+    width: 100%;
+
+    /* для выравнивания по центру */
+    display: flex; 
+    justify-content: center;
+}
+
+.myPhoto {
+    background: #000;
+    width: 100%;
+
+    padding-top: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    color: white;
+    text-align: center;
+}
+
+.graficLogo {
+    max-width: 100%;
+    padding: 5px;
+
+    /* для адаптивной верстки */
+    box-sizing: border-box;
+}
+
+footer, .topNav {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+    background-color: #beb7b7;
+    text-align: center;
+}
+
+.navigation {
+    margin: 0;
+    color: black;
+    font-size: 28px;    
+}
+
+.topNav a:hover {
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    background: white;
+}
+
+.navigation li:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.blackBackground {
+    background: #000;
+}
+
+.greyBackground {
+    background: rgb(19, 17, 17);
     
+}
+
+.greyBackground , .blackBackground {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.socialIcons a img:hover {
+    background: rgb(87, 11, 11);
+    border-radius: 25%;
+}
+
+footer div {
+    padding-top: 10px;
+}
+
+.navigation li {
+    display: inline;
+
+    color: white;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.navigation ul {
+    border-top: 3px solid rgb(87, 11, 11);
+    border-bottom: 3px solid rgb(87, 11, 11);
+    padding-bottom: 2px;
+}
+
+.socialIcons li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.socialIcons {
+    margin-top: 15px;
 }

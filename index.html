@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="pics/monoLogo.png" class="graficLogo" alt="logo"></a>
+        </div>
+        <nav class="navigation">
+            <ul class="greyBackground">
+                <li onclick="scrollFunction('home')">HOME</li>
+                <li onclick="scrollFunction('aboutMe')">ABOUT ME</li>
+                <li onclick="scrollFunction('skills')">SKILLS</li>
+                <li onclick="scrollFunction('codeExample')">CODE EXAMPLE</li>
+                <li onclick="scrollFunction('workExperience')">WORK EXPERIENCE</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="aboutMe">
+        <section class="blackBackground">
+            
+            <h2>About me</h2>
+            <div class='myPhoto'>
+                <a href="https://www.instagram.com/sqrt_stasique/"><img src="pics/myOwnPhoto.jpg" height="400"
+                        alt="myOwnPhoto"></a>
+            </div>
+            <p>
+                Ignatenko Stanislav. 20 years old.<br>
+                I am a student of the Gomel State Technical University named after Pavel Osipovich Sukhoi.<br>
+                My goal is to find myself in IT branch. My favourite language is JavaScript.
+            </p>
+        </section>
+
+        <section class="greyBackground">
+            <h2>Skills</h2>
+            <div>
+                I am a third year student and I know such programming languages as:
+                <ul>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="blackBackground">
+            <h2>Code example</h2>
+            <p>
+                This is the best example of my code in the world (nope). Please, check it out!<br>
+                function calculateSum(a, b){
+                return a + b;
+                }
+            </p>
+        </section>
+
+        <section class="greyBackground">
+            <h2>Work experience</h2>
+            <p>
+                At the moment I don't have a good practic in web development.
+            </p>
+        </section>
+    </main>
+
+
+
+
+    <footer class="blackBackground">
+        <nav class="navigation">
+            <ul class="greyBackground">
+                <!-- <li><a href="#">HOME</a></li> -->
+                <li onclick="scrollFunction('home')">HOME</li>
+                <li onclick="scrollFunction('aboutMe')">ABOUT ME</li>
+                <li onclick="scrollFunction('skills')">SKILLS</li>
+                <li onclick="scrollFunction('codeExample')">CODE EXAMPLE</li>
+                <li onclick="scrollFunction('workExperience')">WORK EXPERIENCE</li>
+                <!-- <li>ABOUT ME</li>
+                <li>SKILLS</li>
+                <li><a href="#">CODE EXAMPLE</a></li>
+                <li>WORK EXPERIENCE</li> -->
+            </ul>
+        </nav>
+        <ul class="socialIcons">
+            <li>
+                <a href="https://vk.com/sqrtstasique"><img src="pics/vk_black.png" width="50" height="50" alt="VK"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/sqrt_stasique/"><img src="pics/inst_black.png" width="52" height="52"
+                        alt="INST"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
